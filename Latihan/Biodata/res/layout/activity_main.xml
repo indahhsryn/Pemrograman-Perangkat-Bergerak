@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" >
+android:layout_height=”fill_parent”;
+android:layout_width=”fill_parent”
+android:id=”@+id/scrollview”
+xmlns:tools=”http://schemas.android.com/tools&#8221;
+xmlns:android=”http://schemas.android.com/apk/res/android”&gt;
+ 
+ <TableLayout
+     android:layout_width="530dp"
+     android:layout_height="wrap_content" >
+
+ android:layout_height=”match_parent”
+android:layout_width=”fill_parent”
+android:id=”@+id/tablelayout1″>
+<TextView>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/textView1″
+android:textAppearance=”?android:attr/textAppearanceMedium”
+android:text=”Nim :”/>
+</TextView>
+<EditText>
+android:layout_height=”wrap_content”
+android:layout_width=”match_parent”
+android:id=”@+id/editText1″ android:inputType=”textPersonName” android:ems=”10″ android:layout_marginBottom=”20px”>
+<requestFocus/>
+</EditText>
+<TextView>
+"android:layout_height""=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/textView2″
+android:textAppearance=”?android:attr/textAppearanceMedium”
+android:text=”Nama Mahasiswa :”/>
+</TextView>
+<EditText>
+android:layout_height=”wrap_content”
+android:layout_width=”match_parent”
+android:id=”@+id/editText2″
+android:inputType=”textPersonName”
+android:ems=”10″
+android:layout_marginBottom=”20px”
+android:layout_y=”13dp”
+android:layout_x=”3dp”/>
+</EditText>
+<TextView>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/textView3″
+android:textAppearance=”?android:attr/textAppearanceMedium”
+android:text=”Jenis Kelamin :”/>
+</TextView>
+<RadioGroup>
+android:layout_height=”wrap_content”
+android:layout_width=”fill_parent”
+android:id=”@+id/radioGroup2″
+android:layout_marginBottom=”20px”
+android:layout_y=”22dp”
+android:layout_x=”12dp”>
+</RadioGroup>
+<RadioButton>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/radio0″
+android:text=”Perempuan”
+android:checked=”false”/>
+</RadioButton>
+<RadioButton>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/radio1″
+android:text=”Laki-laki”/>
+</RadioButton>
+<TextView>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/textView4″
+android:textAppearance=”?android:attr/textAppearanceMedium”
+android:text=”Program Studi :”/>
+</TextView>
+<Spinner>
+android:layout_height=”wrap_content”
+android:layout_width=”match_parent”
+android:id=”@+id/spinner2″
+android:layout_marginBottom=”20px”
+android:drawSelectorOnTop=”true”/>
+</Spinner>
+<TextView>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/textView2″
+android:textAppearance=”?android:attr/textAppearanceMedium”
+android:text=”Kelas :”/>
+</TextView>
+<Spinner>
+android:layout_height=”wrap_content”
+android:layout_width=”match_parent”
+android:id=”@+id/spinner1″
+android:layout_marginBottom=”20px”
+android:drawSelectorOnTop=”true”/>
+</Spinner>
+<TextView>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/textView2″
+android:textAppearance=”?android:attr/textAppearanceMedium”
+android:text=”Semester :”/>
+</TextView>
+<RadioGroup>
+android:layout_height=”wrap_content”
+android:layout_width=”fill_parent”
+android:id=”@+id/radioGroup2″
+android:layout_marginBottom=”20px”
+android:layout_y=”22dp”
+android:layout_x=”12dp”>
+</RadioGroup>
+<RadioButton>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/radio0″
+android:text=”1 (Ganjil)”
+android:checked=”false”/>
+</RadioButton>
+<RadioButton>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/radio1″
+android:text=”2 (Genap)”
+android:checked=”false”/>
+</RadioButton>
+<RadioButton>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/radio2″
+android:text=”3 (Ganjil)”
+android:checked=”false”/>
+</RadioButton>
+<RadioButton>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/radio3″
+android:text=”4 (Genap)”
+android:checked=”false”/>
+</RadioButton>
+<RadioButton>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/radio4″
+android:text=”5 (Ganjil)”
+android:checked=”false”/>
+</RadioButton>
+<RadioButton>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/radio5″
+android:text=”6 (Genap)”
+android:checked=”false”/>
+</RadioButton>
+<TextView>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/textView2″
+android:textAppearance=”?android:attr/textAppearanceMedium”
+android:text=”Minat :”/>
+</TextView>
+<CheckBox>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/checkBox1″
+android:text=”Olahraga”/>
+</CheckBox>
+<CheckBox>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/checkBox2″
+android:text=”Musik”/>
+</CheckBox>
+<CheckBox>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/checkBox1″
+android:text=”Programing”/>
+</CheckBox>
+<CheckBox>
+android:layout_height=”wrap_content”
+android:layout_width=”wrap_content”
+android:id=”@+id/checkBox2″
+android:text=”Designer”/>
+</CheckBox>
+</TableLayout>
+</ScrollView>
+ 

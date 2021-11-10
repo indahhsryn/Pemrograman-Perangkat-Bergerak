@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:drawableTop="@drawable/ic_launcher"
+        android:text="Selamat Datang"
+        android:textSize="20sp" />
+
+<EditText
+        android:id="@+id/nama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan nama Anda"
+        android:singleLine="true" />
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+<Button
+            android:id="@+id/hapus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hapus" />
+
+<Button
+            android:id="@+id/salam"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Salam" />
+</LinearLayout>
+
+<TextView
+        android:id="@+id/hasil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+</LinearLayout>
+

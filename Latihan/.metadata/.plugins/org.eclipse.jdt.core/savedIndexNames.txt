@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+D:\INDAH SURYANINGSIH XII RPL 1\Latihan\.metadata\.plugins\org.eclipse.jdt.core
+2117589366.index
+2981432312.index
+3756861944.index
+1356855933.index
+1480291571.index
